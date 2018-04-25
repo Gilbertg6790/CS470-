@@ -1,1 +1,57 @@
+High Concept: A prince, framed for the King’s murder, must raise an army to defeat his brother, clear his name, and retake his kingdom.
 
+
+Story: 
+The player controls the crown prince to a kingdom. His younger brother kills the King and frames the player, forcing him to flee the castle, followed only by his most trusted knight. The exiled prince must raise an army to defeat his brother and reclaim his honor and his kingdom.
+The prince visits cities and villages furthest away from the capital to recruit people, and as his followers grow, he presses further in towards the capital.
+
+
+Characters:
+        Prince: The player character
+        Trusted Knight: A (to be) named character who follows the prince
+        Prince’s Brother: The new King of the kingdom who killed his father and blamed his                                                                    brother
+        
+Gameplay:
+The game will be a turn based strategy game based on a grid system. The player will control an army made up of different types of units to defeat enemies and claim objectives, which in turn grants the player money and grants units exp. Between levels the player can spend money to purchase additional units, or upgrade existing units. 
+Each unit should have a stat sheet
+Unit Name:
+Price to Hire
+	Price to Upgrade
+	EXP Given on Death
+	EXP Given on Fight Survival
+	Current EXP
+	EXP Needed to Upgrade
+	HP
+	Movement
+	Attack
+	Defense
+	Attack Range
+	Vision Range
+	
+
+During a turn, a unit can be selected once and move a number of tiles equal to or less than its movement. Then the unit can attack any enemy units in it’s range. The defender loses hp = attacker’s attack - defender’s defense. If the defender survives, and the attacking unit is in its attack range, the attacker will then lose hp = defender’s attack - attacker’s defense. When hp reaches 0, a unit dies. When a unit dies, the survivor gains exp.
+There will be a fog of war that conceals enemy units but not terrain. A unit only reveals the area around it equal to its vision range, before or after its movement, but not during. If a unit runs into an enemy, the unit’s movement ends and it can no longer move or attack this turn.
+Potential Units
+
+
+Prince
+	Scaling character, starts off with medium stats but with exp can improve all his stats by a set amount (requires no money). Game over if killed.
+	Knight
+	Extremely HIgh Cost to hire, exp, HP, Attack, and Defense. Gives plenty of EXP to any unit that survives or kills it. Has low movement and vision. An elite unit, and can only be hired, not upgraded into.
+	Scout
+	Has low attack, hp, and defence. Has high Vision and movement. Cheap to hire, and gives low exp. 
+	Recruit
+	Very Cheap to Recruit. All stats are are low, but is cheap to upgrade and has low exp needed to upgrade. Can be upgraded to an archer, scout, or soldier
+	Soldier
+	Medium stats all around. Decent amount of exp needed to upgrade
+	Veteran Soldier
+	High HP, defence, attack. Medium vision and movement. Grants high exp.
+	Archer
+	Low HP, Defense. High Attack. Medium Vision and Movement. Grants medium exp
+	Veteran Archer
+	Low HP, Defense. High Attack. High Vision and Movement. Has a longer range than an archer. Grants high exp.
+
+
+	
+
+Level Objectives: You can always win by wiping out all enemy units. There can be secondary objectives that can be completed for rewards such as more units, money, or experience. These secondary objectives can be to kill a specific enemy unit, hold a specific area for a time limit, etc.
