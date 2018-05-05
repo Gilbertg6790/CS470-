@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Saved Scenes/MovementFinished.unity
+  isLoaded: 1
+  isActive: 1
