@@ -8359,7 +8359,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &445093036
 GameObject:
@@ -12483,7 +12483,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 589272179}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1681174792}
@@ -23344,7 +23344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4788221064263252, guid: 14f1c4b7835500b42b07d42616f0bf7b, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14f1c4b7835500b42b07d42616f0bf7b, type: 2}
@@ -23707,7 +23707,7 @@ Transform:
   - {fileID: 885285299}
   - {fileID: 1712497074}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1098665983
 GameObject:
@@ -34269,7 +34269,7 @@ RectTransform:
   - {fileID: 912236868}
   - {fileID: 231828282}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -43245,6 +43245,29 @@ MonoBehaviour:
   visted: 0
   Parent: {fileID: 0}
   distance: 0
+--- !u!1 &2134379748 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1314749466624100, guid: 14f1c4b7835500b42b07d42616f0bf7b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1072283274}
+--- !u!114 &2134379749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134379748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ccbeccd3bfe8cf4986a6a50f0e23b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 10
+  movement: 5
+  attack: 5
+  defense: 2
+  attackRange: 1
+  posX: 0
+  posY: 0
 --- !u!1 &2137408544
 GameObject:
   m_ObjectHideFlags: 0
